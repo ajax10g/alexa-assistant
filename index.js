@@ -2,7 +2,8 @@
 
 
 var Alexa = require('alexa-sdk');
-var google = require('googleapis');
+// var google = require('googleapis');
+const { google } = require('googleapis');
 const AWS = require('aws-sdk');
 var fs = require('fs');
 var every = require('every-moment');
